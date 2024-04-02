@@ -1,0 +1,71 @@
+:root {
+  --primary--background-color: #E5E8B6; 
+  --text-color: #183A37;
+  --detail-color: #BA7BA1;
+}
+
+html {
+  margin: 0;
+  min-height: 100vh;
+  background-color: var(--primary--background-color);
+}
+
+.pageTitle {
+  background-color: var(--primary--background-color);
+  padding: 24px;
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 2rem;
+  color: var(--detail-color);
+}
+
+.navigation {
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+  font-family: 'Courier New', Courier, monospace;
+  color: var(--detail-color);
+  cursor: pointer;
+}
+
+.about:hover,
+.how:hover,
+.animals:hover,
+.home:hover{
+  color: var(--text-color);
+}
+
+.container {
+  text-align: center;
+  margin: 12px;
+}
+
+.pink{
+  background-color: pink;
+}
+
+.green {
+  background-color: #B4C4AE;
+}
+
+.orange {
+  background-color:#F2D0A9 ;
+}
+
+.yellow {
+  background-color: #F2CD60;
+}
+
+.blue {
+  background-color:#ACD2ED ;
+}
+
+.Home {
+  background-color: red;
+}
+
+
+
+
+
+

@@ -1,6 +1,6 @@
 import Header from "../Header";
 import Button from "../Button";
-import Image from "../../assets/Image";
+
 
 const Green = ({ updateFunction }) => {
   const goToHome = () => {
@@ -9,12 +9,12 @@ const Green = ({ updateFunction }) => {
 
   return (
     <>
-      <Header fruit="Green" />
       <div className="green">
-        Green is top two out of all of the colours. Look at this, it is beautiful. You have amazing taste. 
+        The color green stands for hope and normally means that there is a new beginning. Green also connects with your health and success in life. 
       </div>
       <Button className="home-button" name="Home" updateFunction={goToHome} />
-      <Image />
+      <img src="../../public/green.png" alt="green picture"/>
+
 
     </>
   );

@@ -5,14 +5,17 @@ import Button from "../Button";
 const Pink = ({ updateFunction }) => {
   const goToHome = () => {
     updateFunction(null);
-  };
+  }
 
   return (
     <>
         <div className="pink">
-            Pink is the superior colour. It is made for champions and if this is your favorite colour, then you are the chosen one. You can do anything your heart decires and there is no end to your possibilites. you. are. the. one. 
+            The color pink is mostly associated with romance and love. This color is connected with femininity, comfort, and sweetness. It's also considered as the superior color, by me.        
         </div>
       <Button className="home-button" name="Home" updateFunction={goToHome} />
+      <img src="../../public/pink.png" alt="pink picture"/>
+
+
 
 
     </>
@@ -20,3 +23,4 @@ const Pink = ({ updateFunction }) => {
 };
 
 export default Pink;
+

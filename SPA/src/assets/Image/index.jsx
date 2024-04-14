@@ -1,11 +1,9 @@
-import React from 'react';
-
 const Image = () => {
-  return (
-    <div>
-      <img src="../green.jpg" alt="A green picture" />
-    </div>
-  );
+    return (
+        <div>
+            <img src="../color.png" alt="color wheel" />
+        </div>
+    )
 }
 
-export default Image;
+export default Image; 

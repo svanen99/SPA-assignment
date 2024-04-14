@@ -1,8 +1,8 @@
-import PageTitle from "../PageTitle";
-
-const Header = ({PageTitle}) => {
+const Header = () => {
     return (
-        <div>{PageTitle}</div>
+        <div className="mainHeader">
+            <h1>A colorful website!</h1>
+        </div>
     )
 }
 

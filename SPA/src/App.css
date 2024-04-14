@@ -1,7 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Extra+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Play:wght@400;700&family=Rajdhani:wght@300;400;500;600;700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Extra+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Play:wght@400;700&family=Rajdhani:wght@300;400;500;600;700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Shadows+Into+Light&display=swap');
 :root {
-  --primary--background-color: #E5E8B6; 
-  --text-color: #183A37;
+  --primary--background-color: #dfc1f6; 
+  --text-color:#8b37c2;
   --detail-color: #BA7BA1;
+}
+
+img {
+  width: 20%;
+  margin: auto;
+  display: flex;
+  margin: auto;
+  border-radius: 10px;
 }
 
 html {
@@ -14,25 +24,33 @@ html {
   background-color: var(--primary--background-color);
   padding: 24px;
   text-align: center;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "Rajdhani", sans-serif;
+  font-size: 1.4rem;
+  color: var(--text-color);
+}
+
+.mainHeader {
+  text-align: center;
   font-size: 2rem;
-  color: var(--detail-color);
+  font-family: "Shadows Into Light", cursive;
+  color:#b6208c;
 }
 
 .navigation {
   display: flex;
   text-align: center;
   justify-content: space-around;
-  font-family: 'Courier New', Courier, monospace;
-  color: var(--detail-color);
+  font-family: "Rajdhani", sans-serif;
+  color: black;
   cursor: pointer;
+  position: sticky;
+  font-size: 1.2rem; 
+  border: 1px solid #b95bf1;
+  border-radius: 5px;
 }
 
-.about:hover,
-.how:hover,
-.animals:hover,
-.home:hover{
-  color: var(--text-color);
+.nav-item:hover {
+  color: white;
 }
 
 .container {
@@ -40,28 +58,68 @@ html {
   margin: 12px;
 }
 
-.pink{
-  background-color: pink;
+
+.ogButton {
+  background-color: #f4eafd;
+  border: 1px solid #c286ec ;
+  color: black;
+  padding: 8px 30px;
+  border-radius: 10px;
+  margin: 5px;
+  cursor: pointer;
+  font-family: "Rajdhani", sans-serif;
 }
 
+.p, .options {
+  font-family: "Rajdhani", sans-serif;
+  padding: 12px;
+}
+
+.ogButton:hover {
+  background-color: #d091f8;
+}
+
+.pink{
+  font-family: "Rajdhani", sans-serif;
+  text-align: center;
+}
 .green {
-  background-color: #B4C4AE;
+  font-family: "Rajdhani", sans-serif;
+  text-align: center;
 }
 
 .orange {
-  background-color:#F2D0A9 ;
+  font-family: "Rajdhani", sans-serif;
+  text-align: center;
 }
 
 .yellow {
-  background-color: #F2CD60;
+  font-family: "Rajdhani", sans-serif;
+  text-align: center;
 }
 
 .blue {
-  background-color:#ACD2ED ;
+  font-family: "Rajdhani", sans-serif;
+  text-align: center;
 }
 
 .Home {
   background-color: red;
+}
+
+.footer {
+  font-family: "Rajdhani", sans-serif;
+  display: flex;
+  justify-content: center;
+  padding-top: 14%;
+  margin: auto;
+  position: sticky;
+}
+
+@media screen and (max-width: 700px) {
+  img {
+    width: 40%;
+  }
 }
 
 

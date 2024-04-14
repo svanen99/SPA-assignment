@@ -8,11 +8,11 @@ const Blue = ({ updateFunction }) => {
 
   return (
     <>
-      <Header fruit="Blue" />
       <div className="blue">
-        Blue is alright, but mostly in shades like this. Your taste is ok.. 
+        The color blue is a color that is associated with inteligens, peace and trust. And is also a very boring color. 
       </div>
       <Button className="home-button" name="Home" updateFunction={goToHome} />
+      <img src="../../public/blue.png" alt="blue picture"/>
 
     </>
   );

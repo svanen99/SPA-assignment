@@ -7,11 +7,11 @@ const Orange = ({updateFunction}) => {
     }
     return (
         <>
-        <Header fruit="Orange" />
-        <div className="orange">
-            Orange can be ugly, but in colours like these, it is nice. You have a good taste!
-        </div>
-        <Button className="home-Button" name="Home" updateFunction={goToHome} />
+            <div className="orange">
+                The color orange is associated with energy and enthusiasm. It is connected to warmth, joy, and creativity.
+            </div>
+            <Button className="home-Button" name="Home" updateFunction={goToHome} />
+            <img src="../../public/orange.png" alt="orange picture"/>
 
         </>
     )

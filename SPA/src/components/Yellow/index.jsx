@@ -7,11 +7,11 @@ const Yellow = ({updateFunction}) => {
     }
     return (
         <>
-        <Header fruit="Yellow" />
         <div className="yellow">
-            Yellow is cute, like this color! Your taste is good. 
+            Yellow is a color that stands for joy and happiness. It also holds a strong connection to creativity and inspiration. 
         </div>
         <Button className="home-button" name="Home" updateFunction={goToHome} />
+        <img src="../../public/yellow.png" alt="yellow picture"/>
 
         </>
     )

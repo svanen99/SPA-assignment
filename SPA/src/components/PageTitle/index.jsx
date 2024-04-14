@@ -1,7 +1,7 @@
 
-const PageTitle = () => {
+const PageTitle = ({title}) => {
     return (
-    <div className='pageTitle'>Pick your favorite color!</div>
+    <div className='pageTitle'>{title}</div>
     )
 }
 

@@ -1,9 +1,8 @@
 import React from 'react';
-import Button from '../../Button';
 
-const NavItem = ({ name, content, setPageToDisplay }) => {
+const NavItem = ({ name, setPageToDisplay }) => {
     const handleClick = () => {
-        setPageToDisplay({ title: name, content: content });
+        setPageToDisplay( name );
     };
 
     return (
